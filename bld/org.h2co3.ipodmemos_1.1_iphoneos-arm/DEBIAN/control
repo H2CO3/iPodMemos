@@ -1,0 +1,9 @@
+Package: org.h2co3.ipodmemos
+Name: iPod Memos
+Version: 1.1
+Section: Tweaks
+Description: Add to iPod button for Voice Memos app.
+Depends: mobilesubstrate, org.h2co3.mfmusiclibrary
+Depiction: http://h2co3.zxq.net/
+Author: Arpad Goretity (H2CO3) <arpad.goretity@gmail.com>
+Maintainer: Arpad Goretity (H2CO3) <arpad.goretity@gmail.com>
