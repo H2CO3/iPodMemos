@@ -3,9 +3,6 @@ PROJECT = iPodMemos
 CC = gcc
 LD = $(CC)
 CFLAGS = -isysroot /User/sysroot \
-	 -I/usr/include/gpod-1.0 \
-	 -I/usr/include/glib-2.0 \
-	 -std=gnu99 \
 	 -Wall \
 	 -c
 LDFLAGS = -isysroot /User/sysroot \
@@ -13,9 +10,9 @@ LDFLAGS = -isysroot /User/sysroot \
 	  -dynamiclib \
 	  -lobjc \
 	  -lsubstrate \
+	  -lipodimportclient \
 	  -framework Foundation \
-	  -framework UIKit \
-	  -framework MFMusicLibrary
+	  -framework UIKit
 
 OBJECTS = iPodMemos.o DonateDelegate.o TagViewController.o
 

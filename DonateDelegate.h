@@ -13,6 +13,7 @@
 	NSURL *donateURL;
 }
 
-+ (id) sharedInstance;
++ (id)sharedInstance;
+- (void)showAlertIfNeeded;
 
 @end

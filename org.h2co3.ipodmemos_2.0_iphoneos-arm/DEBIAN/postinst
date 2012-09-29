@@ -1,10 +1,10 @@
 #!/bin/bash
 
 echo "";
-echo "iPod Memos and MFMusicLibrary by H2CO3";
+echo "iPod Memos and libipodimport by H2CO3";
 echo "";
 echo "Please don't forget to donate if you";
-echo "liked this app! Thank you very much!";
+echo "liked this tweak! Thank you very much!";
 echo "";
 echo '   ###    RESPRING NOW    ###';
 echo "";
